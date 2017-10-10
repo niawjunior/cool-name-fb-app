@@ -1,0 +1,31 @@
+body{
+  background-color: #2c3e50;
+  color:white;
+  font-family: 'Kanit', sans-serif;
+}
+
+#profile {
+  width: 100%;
+  height: 100%;
+}
+
+#divLoading
+{
+display : none;
+}
+#divLoading.show
+{
+display : block;
+position : fixed;
+z-index: 100;
+background-image : url('img/Rolling.gif');
+background-size: 50px 50px;
+background-color:black;
+opacity : 1;
+background-repeat : no-repeat;
+background-position : center;
+left : 0;
+bottom : 0;
+right : 0;
+top : 0;
+}
